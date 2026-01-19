@@ -9,10 +9,10 @@
 
 / {
     behaviors {
-        to_mkp: to_mkp {
+        mo_mkp: mo_mkp {
             compatible = "zmk,behavior-hold-tap";
-            label = "TO_MKP";
-            bindings = <&to>, <&mkp>;
+            label = "MO_MKP";
+            bindings = <&mo>, <&mkp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -33,7 +33,7 @@
 
         default_layer {
             bindings = <
-&bt BT_NXT  &to_mkp 4 MB3  &mkp MB1  &tog_mkp 3 MB2
+&bt BT_NXT  &mo_mkp 4 MB3  &mkp MB1  &mo_mkp 3 MB2
             >;
         };
 
