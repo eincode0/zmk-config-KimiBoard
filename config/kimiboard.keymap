@@ -137,7 +137,7 @@
 
         page {
             bindings = <
-&trans  &kp PAGE_DOWN  &kp PAGE_UP  &to 0
+&trans  &kp PAGE_UP  &kp PAGE_DOWN  &to 0
             >;
         };
     };
