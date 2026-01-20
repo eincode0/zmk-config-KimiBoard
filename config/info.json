@@ -1,13 +1,16 @@
 {
+  "id": "kimiboard",
+  "name": "kimiboard",
   "keyboard_name": "KimiBoard",
   "layouts": {
     "LAYOUT": {
       "layout": [
-        { "label": "RST", "x": 0,    "y": 0, "w": 1, "h": 1, "row": 0, "col": 0 },
+        { "label": "RST", "x":    0, "y": 0, "w": 1, "h": 1, "row": 0, "col": 0 },
         { "label": "SW2", "x": 1.25, "y": 0, "w": 1, "h": 1, "row": 0, "col": 1 },
-        { "label": "SW3", "x": 2.5,  "y": 0, "w": 1, "h": 1, "row": 0, "col": 2 },
+        { "label": "SW3", "x":  2.5, "y": 0, "w": 1, "h": 1, "row": 0, "col": 2 },
         { "label": "SW4", "x": 3.75, "y": 0, "w": 1, "h": 1, "row": 0, "col": 3 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
